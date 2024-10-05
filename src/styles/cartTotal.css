@@ -1,0 +1,37 @@
+.cart-total {
+  display: flex;
+  flex-direction: column;
+  margin-left: 60px;
+  width: 50%;
+  margin-top: 120px;
+  margin-bottom: 60px;
+}
+.subtotal {
+  display: flex;
+  justify-content: space-between;
+}
+.shipping {
+  display: flex;
+  justify-content: space-between;
+}
+.total {
+  display: flex;
+  justify-content: space-between;
+}
+.cart-total hr {
+  width: 100%;
+  background-color: rgb(207, 205, 205);
+}
+.cart-total button {
+  font-size: 10px;
+  width: 140px;
+  height: 35px;
+  color: white;
+  background-color: rgb(211, 50, 22);
+  border: 1px solid white;
+  cursor: pointer;
+}
+.cart-total button:active {
+  color: black;
+  background-color: white;
+}

@@ -1,0 +1,31 @@
+.popular {
+  margin-top: 120px;
+}
+.pop-collection {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.pop-collection img {
+  width: 255px;
+  height: 300px;
+}
+.price {
+  display: flex;
+  gap: 12px;
+}
+.price :nth-child(1) {
+  font-weight: 600;
+}
+.price :nth-child(2) {
+  text-decoration: line-through;
+  font-weight: 300;
+}
+.popular h1 {
+  text-align: center;
+}
+h1 hr {
+  width: 100px;
+  height: 2px;
+  background: rgb(48, 46, 46);
+}

@@ -1,0 +1,48 @@
+.login {
+  background-color: rgb(250, 215, 221);
+  height: 100vh;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.centered-el {
+  width: 30%;
+  height: 65vh;
+  background-color: white;
+  border: 2px solid rgb(240, 235, 235);
+  margin-top: 55px;
+  padding-left: 30px;
+}
+
+.form-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 75%;
+}
+.form-1 input {
+  height: 30px;
+  margin-bottom: 25px;
+}
+.centered-el button {
+  width: 75%;
+  height: 40px;
+  color: white;
+  text-align: center;
+  background-color: tomato;
+  border: 1px solid white;
+  cursor: pointer;
+}
+.centered-el button:active {
+  background-color: white;
+  color: black;
+}
+.centered-el a {
+  text-decoration: none;
+  color: tomato;
+}
+.form-2 {
+  display: flex;
+  gap: 10px;
+}

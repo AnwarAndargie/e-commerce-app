@@ -1,0 +1,31 @@
+.chosen-products {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 25px;
+  margin-left: 60px;
+}
+.head {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 25px;
+  margin-left: 60px;
+}
+.head p {
+  font-weight: 500;
+}
+.cart-icon {
+  width: 20px;
+  height: 25px;
+}
+.product-image {
+  width: 50px;
+  height: 75px;
+}
+.remove {
+  cursor: pointer;
+}
+.products hr {
+  margin-left: 60px;
+  margin-right: 80px;
+  background-color: rgb(238, 234, 234);
+}

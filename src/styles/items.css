@@ -1,0 +1,44 @@
+.category {
+  margin-left: 60px;
+  margin-bottom: 120px;
+}
+.collections {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+.collections img {
+  width: 275px;
+  height: 350px;
+}
+.collections p {
+  font-size: 12px;
+}
+.price {
+  display: flex;
+  gap: 12px;
+}
+.price :nth-child(1) {
+  font-weight: 600;
+}
+.price :nth-child(2) {
+  text-decoration: line-through;
+  font-weight: 300;
+}
+.product-card {
+  display: flex;
+  flex-direction: column;
+  width: 275px;
+}
+.collections button {
+  /* width: 130px;
+  height: 35px; */
+  color: white;
+  background-color: rgb(228, 66, 37);
+  border: 1px solid white;
+  border-radius: 75px;
+}
+.collections button:active {
+  color: black;
+  background-color: white;
+}
